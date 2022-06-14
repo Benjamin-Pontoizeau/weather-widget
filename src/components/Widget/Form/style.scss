@@ -1,0 +1,24 @@
+.form {
+    width: 100%;
+    text-align: center;
+    padding: 0rem 0 1.5rem;
+
+    &-input {
+        border-radius: 10px;
+        border: none;
+        padding: 0.5rem;
+        outline: none;
+        width: 80%; 
+    }
+
+    // &-select {
+    //     color: white;
+    //     background-color: rgb(27, 27, 68);
+    //     border-radius: 0 15px 15px 0;
+    //     outline: none;
+    //     padding: 0.5rem;
+    //     cursor: pointer;
+    //     align-items: center;
+    //     border: none;
+    // }
+}

@@ -1,0 +1,82 @@
+.meteo {
+    background-image: linear-gradient(to right bottom, #688fc9, #5b89ce, #4d83d2, #3e7dd6, #2b77da);   
+    width: 500px;
+    padding: 1.5rem;
+    border-radius: 15px;
+    text-align: left;
+    flex-direction: column;
+    -webkit-box-shadow: 5px 9px 15px 5px rgba(0,0,0,0.31); 
+    box-shadow: 5px 9px 15px 5px rgba(0,0,0,0.31);
+
+    &-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-infos {
+        margin: 0.8rem 0 0.8rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    &-temperature {
+        margin: 0;
+        font-size: 2.8em;
+        font-weight: 800;
+    }
+
+    &-city {
+        margin: 0;
+        font-size: 1.5em;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 100;
+    }
+
+    &-code {
+        margin: 0;
+        opacity: .25;
+    }
+
+    &-icon {
+        width: 30%;
+    }
+
+    &-specification {
+        display: flex;
+        justify-content: space-evenly;
+
+        &-title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 1rem;
+        }
+
+        &-info {
+            font-size: 2rem;
+            margin-top: 0.7rem;
+            font-weight: 800;
+        }
+    
+        em {
+            font-style: normal;
+            font-weight: 100;
+            font-size: 0.8rem;
+            margin-left: 0.2rem;
+        }
+        
+    }
+   
+} 
+
+@media (max-width: 600px) {
+
+    .meteo {
+        width: 250px;
+    }
+}
+
+

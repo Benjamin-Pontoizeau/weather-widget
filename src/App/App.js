@@ -1,11 +1,11 @@
 import React from 'react';
-import './App.css';
-import MeteoWidget from './MeteoWidget';
+import './style.css';
+import App from '../components/App';
 
 function App() {  
   return (
     <div className="App">
-      <MeteoWidget city="Montpellier" code={34000}/>
+      <App/>
     </div>
   );
 }
